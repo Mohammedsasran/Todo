@@ -1,0 +1,58 @@
+
+
+.container {
+    width: 50%;
+    height: 250px;
+
+    left: 200px;
+    margin-top: 100px;
+    margin-left: 350px;
+    background-color: #1f1e1ea9;
+    text-align: center;
+    border-radius: 20px;
+}   
+
+input {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #0daa12; /* Green */
+    color: white;
+}   
+.editbtn{
+    margin-left: 260px;
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #292b29; 
+    color: white;   
+}
+.deletebtn{
+    
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    background-color: red; 
+    color: white;   
+}
