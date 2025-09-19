@@ -2,7 +2,7 @@
 
 .container {
     width: 50%;
-    height: 250px;
+    height: 400px;
 
     left: 200px;
     margin-top: 100px;
@@ -32,3 +32,32 @@ button {
     background-color: #0daa12; /* Green */
     color: white;
 }   
+
+.task-li{
+    list-style: none;
+    width: 500px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+.edit-btn{
+    background: rgba(48, 48, 48, 0.705);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    margin-left: 50px;
+}
+.delete-btn{
+    background: red;
+    color: white;
+    border: none;
+    margin-left: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+    
+}
+

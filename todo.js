@@ -13,13 +13,26 @@ function add() {
 
     
     const li = document.createElement("li");
+    li.className = "task-li"
 
     
     const span = document.createElement("span");
     span.textContent = taskText;
+    
 
     
-    const editBtn = document.createElement("button");
+   
+
+
+    const deleteBtn = document.createElement("button");
+    deleteBtn.textContent = "Delete";
+    deleteBtn.className="delete-btn"
+    deleteBtn.onclick = function () {
+        li.remove();
+    };
+
+     const editBtn = document.createElement("button");
+    editBtn.className="edit-btn"
     editBtn.textContent = "Edit";
     editBtn.onclick = function () {
         const newTask = prompt("Edit your task:", span.textContent);
@@ -27,14 +40,6 @@ function add() {
             span.textContent = newTask.trim();
         }
     };
-
-
-    const deleteBtn = document.createElement("button");
-    deleteBtn.textContent = "Delete";
-    deleteBtn.onclick = function () {
-        li.remove();
-    };
-
 
    
     li.appendChild(span);
