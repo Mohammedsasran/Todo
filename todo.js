@@ -18,4 +18,23 @@ function add() {
     const span = document.createElement("span");
     span.textContent = taskText;
 
+    
+    const editBtn = document.createElement("button");
+    editBtn.textContent = "Edit";
+    editBtn.onclick = function () {
+        const newTask = prompt("Edit your task:", span.textContent);
+        if (newTask !== null && newTask.trim() !== "") {
+            span.textContent = newTask.trim();
+        }
+    };
+
+
+    const deleteBtn = document.createElement("button");
+    deleteBtn.textContent = "Delete";
+    deleteBtn.onclick = function () {
+        li.remove();
+    };
+
+        
+
 }
