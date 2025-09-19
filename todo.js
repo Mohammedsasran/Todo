@@ -35,6 +35,13 @@ function add() {
         li.remove();
     };
 
-        
 
+   
+    li.appendChild(span);
+    li.appendChild(editBtn);
+    li.appendChild(deleteBtn);
+    taskList.appendChild(li);
+
+   
+    inputBox.value = "";
 }
